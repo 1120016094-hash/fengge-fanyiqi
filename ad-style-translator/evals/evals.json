@@ -1,0 +1,29 @@
+{
+  "skill_name": "ad-style-translator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有一个新中式无糖茶饮品牌，要做一张上市海报。想要高级、安静、有东方感，但不要像寺庙或古风，请推荐几个设计师方向供我选。",
+      "expected_output": "Should recommend multiple designer/style routes such as Kenya Hara, Taku Satoh, and Kashiwa Sato, explain fit and risks, and stop by asking the user to choose a route. It should not generate images.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我选 David Carson 路线。帮我把一个街头滑板鞋广告做得更叛逆，目标是大学生。风格可以脏一点、像音乐杂志，但产品必须看得清。请转成下游 AI 可执行的创作命令。",
+      "expected_output": "Should translate the selected route into a detailed downstream image-generation command using anti-grid typography, dirty texture, product clarity, and negative prompts. It should not call image generation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我们要给公益反诈活动做 KV，希望画面聪明、一眼能懂，有一点视觉双关，不想靠大段文字说教。先推荐几个设计师方向。",
+      "expected_output": "Should recommend routes such as Noma Bar, Droga5 paired with Bierut, and possibly Paula Scher, with fit/risk/use cases, then ask the user to select. It should not generate images.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "我要做一个丰田汽车广告，但还没定风格。请根据汽车广告这个类型，多推荐几个设计师路线给我选。",
+      "expected_output": "Should provide several automotive-relevant routes including Michael Bierut, Taku Satoh, Kashiwa Sato, Kenya Hara, Noma Bar, David Carson, Paula Scher, Sagmeister, or Droga5 as appropriate, explaining which automotive objective each fits. It should stop at recommendation and selection.",
+      "files": []
+    }
+  ]
+}
