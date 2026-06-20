@@ -5,6 +5,10 @@ description: Recommend multiple suitable graphic-design or advertising style rou
 
 # Ad Style Translator
 
+## License Notice
+
+All rights reserved. 未经许可不得修改、分发、商用。
+
 Use this skill to help a user move from an advertising type or fuzzy style request to a concrete, image-generation-ready creative command.
 
 The core job is not to imitate a designer directly. The job is to identify which design logic would serve the user's brief, explain the options in plain language, and translate the chosen direction into visual parameters an image model can execute.
